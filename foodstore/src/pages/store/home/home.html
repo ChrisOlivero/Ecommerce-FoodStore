@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Food Store</title>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" />
+  <link rel="stylesheet" href="../../../styles/global.css">
+  <link rel="stylesheet" href="../../../styles/navbar.css">
+  <link rel="stylesheet" href="../../../styles/home.css">
+</head>
+
+<body>
+
+  <header>
+
+    <nav id="contenedor__nav">
+
+      <a class="nav__tittle" href="./home.html">
+
+        FOOD STORE
+
+      </a>
+
+      <ul id="nav__lista">
+
+        <li>
+
+          <a id="nav-pedidos" class="nav__links" style="display:none;" href="../../client/orders/orders.html">
+
+            <span class="material-symbols-outlined">
+              inventory_2
+            </span>
+
+            Mis Pedidos
+
+          </a>
+
+        </li>
+
+        <li>
+
+          <a id="nav-carrito" class="nav__links" style="display:none;" href="../../store/cart/cart.html">
+
+            <span class="material-symbols-outlined">
+              shopping_cart
+            </span>
+
+            Carrito
+
+          </a>
+
+        </li>
+
+        <li>
+
+          <a id="nav-admin" class="nav__links" style="display:none;" href="../../admin/dashboard/dashboard.html">
+
+            <span class="material-symbols-outlined">
+              admin_panel_settings
+            </span>
+
+            Panel Admin
+
+          </a>
+
+        </li>
+
+        <li id="nav-login">
+
+          <a class="nav__links" href="../../auth/login/login.html">
+
+            <span class="material-symbols-outlined">
+              login
+            </span>
+
+            Iniciar Sesión
+
+          </a>
+
+        </li>
+
+      </ul>
+
+    </nav>
+
+  </header>
+
+  <main>
+
+    <button id="toggleSidebar" class="sidebar-toggle">
+
+      <span class="material-symbols-outlined">
+
+        menu
+
+      </span>
+
+      Categorías
+
+    </button>
+
+    <aside id="sidebar">
+
+      <div class="sidebar-header">
+
+        <span class="material-symbols-outlined">
+
+          lunch_dining
+
+        </span>
+
+        <h2>
+
+          Categorías
+
+        </h2>
+
+      </div>
+
+      <ul id="category-list">
+
+      </ul>
+
+    </aside>
+
+    <section class="productos">
+
+      <div class="toolbar">
+
+        <div class="search-bar">
+
+          <span class="material-symbols-outlined">
+
+            search
+
+          </span>
+
+          <input id="search" type="text" placeholder="Buscar productos...">
+
+        </div>
+
+        <div class="sort-menu">
+
+          <button id="sortButton" type="button">
+
+            <span class="material-symbols-outlined">
+
+              sort
+
+            </span>
+
+            Ordenar
+
+            <span class="material-symbols-outlined">
+
+              expand_more
+
+            </span>
+
+          </button>
+
+          <div id="sortDropdown" class="dropdown">
+
+            <div data-sort="default">
+
+              Recomendados
+
+            </div>
+
+            <div data-sort="az">
+
+              Nombre A-Z
+
+            </div>
+
+            <div data-sort="za">
+
+              Nombre Z-A
+
+            </div>
+
+            <div data-sort="precioAsc">
+
+              Precio menor
+
+            </div>
+
+            <div data-sort="precioDesc">
+
+              Precio mayor
+
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+
+      <div class="section-title">
+
+        <h2>
+
+          Nuestros Productos
+
+        </h2>
+
+        <p>
+
+          Elegí tus favoritos y agregalos al carrito.
+
+        </p>
+
+      </div>
+
+      <section id="product-container">
+      </section>
+
+    </section>
+
+  </main>
+
+  <footer>
+
+    <div class="footer-container">
+
+      <div>
+
+        <h3> FOOD STORE</h3>
+
+        <p>Comida rápida preparada con ingredientes frescos.</p>
+
+      </div>
+
+      <div>
+
+        <h4>Contacto</h4>
+
+        <p>info@foodstore.com</p>
+
+        <p>San Juan - Argentina</p>
+
+      </div>
+
+      <div>
+
+        <h4>Horarios</h4>
+
+        <p>Lun - Dom</p>
+
+        <p>10:00 a 23:30 hs</p>
+
+      </div>
+
+    </div>
+
+    <hr>
+
+    <p class="copyright">
+
+      © 2026 Food Store - Todos los derechos reservados.
+
+    </p>
+
+  </footer>
+
+  <script type="module" src="./home.ts"></script>
+
+</body>
+
+</html>
