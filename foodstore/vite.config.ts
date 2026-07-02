@@ -11,8 +11,6 @@ export default defineConfig({
         
         storeCart: resolve(__dirname, "src/pages/store/cart/cart.html"),
 
-        productDetail: resolve(__dirname,"src/pages/store/productDetail/productDetail.html"),
-
         orders: resolve(__dirname,"src/pages/client/orders/orders.html"),
 
         login: resolve(__dirname, "src/pages/auth/login/login.html"),
