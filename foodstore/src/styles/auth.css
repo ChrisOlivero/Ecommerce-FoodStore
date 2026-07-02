@@ -1,0 +1,58 @@
+/* ===========================
+   TITULO
+=========================== */
+
+#h1FoodStore{
+
+    color:var(--color-primario);
+
+    text-align:center;
+
+    text-transform:uppercase;
+
+    letter-spacing:3px;
+
+}
+
+/* ===========================
+   SUBTITULOS
+=========================== */
+
+#pIniciarSesion,
+#pRegistrarse{
+
+    color:var(--color-texto);
+
+    text-align:center;
+
+    font-size:18px;
+
+    margin-top:5px;
+
+    margin-bottom:20px;
+
+}
+
+/* ===========================
+   PIE
+=========================== */
+
+#pieLogin{
+
+    margin-top:15px;
+
+    font-size:14px;
+
+}
+
+/* ===========================
+   MENSAJES
+=========================== */
+
+.login-message{
+
+    color:red;
+
+    margin-top:10px;
+
+}
