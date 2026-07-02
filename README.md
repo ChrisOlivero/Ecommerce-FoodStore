@@ -492,6 +492,11 @@ Durante el desarrollo del proyecto se aplicaron conocimientos de:
 
 ---
 
+Link Video Presentacion: 
+
+https://drive.google.com/file/d/1u2KjZeWNfZr2IJxC875uzOOPu8T03eH-/view?usp=sharing
+
+
 # 👨‍💻 Autor
 
 **Christian Olivero**
